@@ -1,7 +1,7 @@
 // Problem: Merge Triplets to Form Target
 // Platform: NeetCode
 // Link: https://neetcode.io/problems/merge-triplets-to-form-target
-// time complexity: O(n log n) - Sorting the triplets takes O(n log n) time
+// time complexity: O(n) - We iterate through the triplets once
 // space complexity: O(1) - Using constant extra space
 
 /*
