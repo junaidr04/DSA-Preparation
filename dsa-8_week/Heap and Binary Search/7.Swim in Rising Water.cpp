@@ -137,14 +137,6 @@ public:
                 lo = t + 1;
             }
         }
-
-        // sobcheye choto possible t
         return ans;
     }
 };
-
-
-canReach: Time O(n²) (protyek cell max ekbar push, 4 dik constant). Space O(n²) (visited + queue).
-Binary search: t er range 0 theke n² - 1, tai iteration O(log(n²)) = O(log n).
-
-n = 50 hole n² = 2500, log(2500) ≈ 12, total prai 30,000 operation, khub fast. ✅
